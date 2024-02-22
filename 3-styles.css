@@ -1,27 +1,27 @@
 /* THE FONTS THAT WERE CHOSEN TO USE - NON STD*/
 
+
 @font-face {
   font-family: 'Source sans pro';
-  src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
+  src: url('./fonts/source-sans-pro/SourceSansPro-Regular.otf')
 }
 
 @font-face {
   font-family: 'Spin Cycle';
-  src: url('../fonts/Spin-Cycle-OT/spincycle_ot.otf');
+  src: url('./fonts/Spin-Cycle-OT/spincycle_ot.otf');
 }
 
 @font-face {
   font-family: 'holberton_school-icon';
-  src: url('../fonts/holberton_school-icon.eot?sq4eq4');
-  src: url('../fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
-    url('../fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
-    url('../fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
-    url('../fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+  src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+  src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+    url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+    url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
-
 
 [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
   font-family: 'holberton_school-icon' !important;  /* browser extensions fix */
