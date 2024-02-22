@@ -507,6 +507,12 @@ header .nav ul li {
 }
 /* CONTACT US SECTION */
 
+.form-wrapper {
+  width: 34rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
 
 form {
   margin: 5rem 0rem 1rem;
