@@ -37,16 +37,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.example-icons_sound:before {
+.holberton_school-icon-ic_sound:before {
   content: "\e90e";
 }
-.example-icons_music:before {
+.holberton_school-icon-ic_music:before {
   content: "\e90d";
 }
-.example-icons_video:before {
+.holberton_school-icon-ic_video:before {
   content: "\e910";
 }
-.example-icons_hearing:before {
+.holberton_school-icon-ic_hearing:before {
   content: "\e909";
 }
 
@@ -389,6 +389,47 @@ header .nav ul li {
   margin: 2rem;
 }
 
+/* RESULTS SECTION  */
+
+.results-section {
+  color: var(--white-color);
+  padding: 1px 0;
+  background-image: url('./img/headphones_hero_2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .section-pentagon-container {
+  height: 17rem;
+  position: relative;
+  }
+  
+  .section-pentagon-container img {
+  height: inherit;
+  width: inherit;
+  }
+  
+  .pentagon-title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 5rem;
+  font-weight: 600;
+  }
+  
+  .pentagon-description {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  font-size: 13px;
+  font-weight: 600;
+  transform: translate(-50%, 0);
+  width: 100%;
+  }
+
+
 /* BUTTONS */
 
 #mobile-icon-btn {
@@ -433,6 +474,7 @@ header .nav ul li {
   }
 }
 
+
 /* RESULTS SECTION - TABLET VERSION - large */
 @media screen and (max-width: 768px) {
   .pentagon-examples {
@@ -461,15 +503,7 @@ header .nav ul li {
   .pentagon-examples {
       width: 100%;
   }
-  .section-examples {
-      flex-direction: column;
-      align-items: center;
-  }
-  .section-example {
-      width: 70%;
-      max-width: 70%;
-  }
-}
+
 
 /* CONTACT US SECTION */
 
